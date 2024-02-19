@@ -1,0 +1,55 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  padding-left: calc((100vw - 1440px) / 2);
+  padding-right: calc((100vw - 1440px) / 2);
+  width: 100%;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.flex-end {
+  justify-self: flex-end;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width{
+  width: 50%;
+}
+
+.black-bg {
+  background: black;
+}
