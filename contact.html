@@ -35,19 +35,38 @@
         <a href="contact.html" class="button">Entre em contato</a>
       </div>
     </header>
-    <main class="flex space-between container banner">
-      <div class="flex column justify-center gap-3">
-        <div>
-          <h2>Escolha o melhor para o seu projeto</h2>
-          <p>UI/UX Design</p>
+    <main class="flex column space-between">
+      <h2 class="big container p-b-3">
+        Interessado em colaborar? Entre em contato comigo!
+      </h2>
+      <div class="bg-gray">
+        <div class="grid-2 container p-t-3 p-b-3">
+          <form>
+            <p>Me mande uma mensagem</p>
+            <input type="text" name="name" id="name" placeholder="Seu nome*">
+            <input type="email" name="email" id="email" placeholder="Seu email*">
+            <input type="text" name="service" id="service" placeholder="Qual serviço está procurando?*">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+            <button class="button">Enviar mensagem</button>
+          </form>
+          <div class="full-height flex column space-between">
+            <p>Entre em contato comigo de outra forma</p>
+            <a href="https://api.whatsapp.com/send?phone=5532998544956&text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portf%C3%B3lio!">
+              <h2 class="big">(32) 9 9854-4956</h2>
+            </a>
+            <div>
+              <h3 class="p-t-1">Me siga nas redes sociais</h3>
+              <div class="flex gap-1 p-t-1">
+                <a href="">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a href="">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <a href="portfolio.html" class="button flex-end"
-          >Veja o meu portfolio</a
-        >
-      </div>
-      <div>
-        <img src="assets/profile-no-bg.png" alt="Sabrine Terrason" />
       </div>
     </main>
     <footer
